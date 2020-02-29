@@ -1,2 +1,5 @@
-.gradle/
-build/
+/cs310-tic-tac-toe1/nbproject/private/
+/cs310-tic-tac-toe/nbproject/private/
+/nbproject/private/
+/build/
+/dist/

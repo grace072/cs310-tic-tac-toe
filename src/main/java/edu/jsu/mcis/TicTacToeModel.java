@@ -111,15 +111,14 @@ public class TicTacToeModel {
         // INSERT YOUR CODE HERE
         if (isValidSquare(row, col) && !isSquareMarked(row, col)) {
             
-            if (xTurn) { //xTurn이 아닐경우 else로
+            if (xTurn) {
                 board[row][col] = Mark.X;
                 xTurn = false;
             } else {
                 board[row][col] = Mark.O;
                 xTurn = true;
             }
-//            board[row][col] = xTurn ? Mark.X : Mark.O;
-//            xTurn = !xTurn;
+
             return true;
         }
 
